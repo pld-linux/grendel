@@ -1,5 +1,6 @@
 %define		_snap 20060316
 Summary:	A Java mail/news client
+Summary(pl):	Klient poczty/newsów w Javie
 Name:		grendel
 Version:	cvs
 Release:	0.%{_snap}.1
@@ -27,6 +28,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Grendel is the mail-news portion of the Xena project written in Java.
 Its goal is to be a true cross-platform application with a feature set
 that satisfies the poweruser.
+
+%description -l pl
+Grendel to czê¶æ pocztowo-newsowa projektu Xena napisana w Javie. Jej
+celem jest bycie naprawdê przeno¶n± aplikacj± o mo¿liwo¶ciach
+satysfakcjonuj±cych do¶wiadczonego u¿ytkownika.
 
 %prep
 %setup -qc
