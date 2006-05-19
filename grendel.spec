@@ -13,7 +13,7 @@ Source1:	http://wired.st-and.ac.uk/~hash9/grendel/%{name}-jar-pack-20051224.zip
 # not sure about licenses, so NoSource for now
 NoSource:	1
 URL:		http://wiki.mozilla.org/Grendel
-BuildRequires:	jakarta-ant >= 1.6
+BuildRequires:	ant >= 1.6
 BuildRequires:	jdk >= 1.5.0
 BuildRequires:	unzip
 Requires:	java >= 1.5.0
