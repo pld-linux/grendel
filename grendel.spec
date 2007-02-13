@@ -1,6 +1,6 @@
 %define		_snap 20060316
 Summary:	A Java mail/news client
-Summary(pl.UTF-8):   Napisany w Javie klient poczty/newsów
+Summary(pl.UTF-8):	Napisany w Javie klient poczty/newsów
 Name:		grendel
 Version:	cvs
 Release:	0.%{_snap}.1
